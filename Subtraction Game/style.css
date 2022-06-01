@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(mountain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+input{
+    width: 20rem;
+    height: 5rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    border: 0px solid black;
+    background: black;
+    box-shadow: -1.5px -1.5px 10px rgba(255, 255, 255, 1),
+    3px 3px 15px rgba(0, 0, 0, 1);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    display: none;
+}
+
+
+span{
+    padding: 0.5rem 2rem;
+    background: black;
+    color: steelblue;
+    border-radius: 1rem; 
+    box-shadow: -1.5px -1.5px 10px rgba(255, 255, 255, 1),
+    3px 3px 15px rgba(0, 0, 0, 1);
+}
+button{
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    font-weight: 600;
+    border: 0px solid white;
+    background: black;
+    color: red;
+    box-shadow: -1.5px -1.5px 10px rgba(255, 255, 255, 1),
+    3px 3px 15px rgba(0, 0, 0, 1);
+}
+#res{
+    padding: 1rem 0rem;
+    border-radius: 1rem;
+    width: 20rem;
+    background: black;
+    color:white;
+    text-align: center;
+    box-shadow: -1.5px -1.5px 10px rgba(255, 255, 255, 1),
+    3px 3px 15px rgba(0, 0, 0, 1);
+}

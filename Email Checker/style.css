@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(tree.jpg);
+    background-size: cover;
+}
+h3{
+    position: relative;
+    font-size: 2.75em;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    background: -webkit-linear-gradient(135deg, blue, #ff033e);
+    -webkit-background-clip: text;
+    background-clip: none;
+    -webkit-text-fill-color: transparent;
+}
+#form{
+    position: relative;
+}
+#form #email{
+    width: 30rem;
+    padding: 0.5rem;
+    background: white;
+    border: 2px solid black;
+    font-size: 1.5em;
+    border-radius: 0.5rem;
+    outline: none;
+}
+#form #inputBox{
+    position: relative;
+}
+#text{
+    display: block;
+    color: #000;
+    font-weight: 700;
+}
